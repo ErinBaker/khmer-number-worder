@@ -1,5 +1,4 @@
 @import 'https://fonts.googleapis.com/css?family=Kantumruy:300,400,700|Rubik+One|Rubik:300,400,900&subset=khmer';
-
 @media only screen and (max-width: 500px) {
    .question {
       height: 5vh!important;
@@ -7,29 +6,9 @@
    }
    .answer {
       font-size: 2vh!important;
-
+      height: 7rem!important;
    }
 }
-
-
-/* Small devices (tablets, 768px and up) */
-@media only screen and (min-width: @screen-sm-min) { 
-.headline {
-   font-size: 6vw;}
-   }
-
-/* Medium devices (desktops, 992px and up) */
-@media only screen and (min-width: @screen-md-min) { 
-   .headline {
-   font-size: 4vw;}
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: @screen-lg-min) { 
-   .headline {
-   font-size: 3vw;}
-   }
-   
 
 noscript div {
    background-color: rgba(244, 67, 54, 1);
@@ -50,25 +29,18 @@ body {
    text-shadow: 0 0x 1px rgba(63, 81, 181, 1);
 }
 
-footer {
+.footer {
    position: fixed;
    bottom: 0;
    float: right;
+   font-size: small;
+   color: #ffffff;
 }
 
-footer p 
-{
-   color: rgba(255,255,255,.5);
-      font-size: 10px;
-   line-height:1.5;
-
-}
-/*
 section {
    display: block;
    margin-top: 1em;
 }
-*/
 
 .centerDiv {
    position: absolute;
@@ -105,18 +77,34 @@ section {
 }
 
 .headline {
-   font-size: 36px;
+   font-size: 6vw;
    color: rgba(255, 255, 255, .8);
 }
 
-textarea {color:rgba(255,255,255,1);}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+.headline {
+   font-size: 6vw;}
+   }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+   .headline {
+   font-size: 4vw;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+   .headline {
+   font-size: 3vw;}
+   }
+
 
 .khmer {
    font-size: 90%;
    line-height: 1.8em;
    letter-spacing: 0;
 }
-
 
 .question {
    height: 20vh;
@@ -126,9 +114,11 @@ textarea {color:rgba(255,255,255,1);}
 
 .answer {
    display: block;
+   ;
    font-family: 'Rubik', 'Kantumruy', 'FontAwesome';
-   font-size: 24px;
+   font-size: 2vw;
    position: relative;
+   height: 7rem;
    overflow-x: none;
    color: rgba(255, 255, 255, .8);
    word-break: keep-all;
@@ -153,7 +143,7 @@ textarea {color:rgba(255,255,255,1);}
    background-color: transparent;
    width: 100%;
    padding: 2vh 2vw;
-   font-size: 36px;
+   font-size: 4vw;
    text-align: center;
    font-variant-numeric: tabular-nums;
    -moz-font-feature-settings: "tnum";
@@ -162,15 +152,17 @@ textarea {color:rgba(255,255,255,1);}
 }
 
 .results {
-  /* position: absolute; */
+   position: absolute;
    line-height: 1.8em;
    background: none;
    width: 100%;
    border: none;
+   height: 700px;
    resize: none;
    user-select: all;
    overflow-x: none;
    cursor: grab;
+   border-bottom: 2px solid white!important;
 }
 
 .resultsen {
@@ -179,6 +171,7 @@ textarea {color:rgba(255,255,255,1);}
    background: none;
    width: 100%;
    border: none;
+   height: 700px;
    resize: none;
    user-select: all;
    overflow-x: none;
@@ -197,28 +190,28 @@ input[type="textarea"] {
 ::-webkit-input-placeholder {
    /* Chrome/Opera/Safari */
    color: rgba(187, 222, 251, 1);
-   font-size: 24px;
+   font-size: 3vw;
    font-weight: 400;
 }
 
 ::-moz-placeholder {
    /* Firefox 19+ */
    color: rgba(187, 222, 251, 1);
-   font-size: 24px;
+   font-size: 3vw;
    font-weight: 400;
 }
 
 :-ms-input-placeholder {
    /* IE 10+ */
    color: rgba(187, 222, 251, 1);
-   font-size: 24px;
+   font-size: 3vw;
    font-weight: 400;
 }
 
 :-moz-placeholder {
    /* Firefox 18- */
    color: rgba(187, 222, 251, 1);
-   font-size: 24px;
+   font-size: 3vw;
    font-weight: 400;
 }
 

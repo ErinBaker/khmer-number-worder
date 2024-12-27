@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2024 Erin (https://codepen.io/epidemiks/pen/JKxbOP)
+Copyright (c) 2024 Erin Baker
 Fork of an original work wordify (https://codepen.io/epidemiks/pen/RREmMp)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
